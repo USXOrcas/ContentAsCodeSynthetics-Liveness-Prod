@@ -27,7 +27,7 @@ jobs:
       directory: '${{ github.workspace }}'
       cloudEnv: 'AzureCloud'
       creds: ${{ secrets.AZURE_SENTINEL_CREDENTIALS_3418885c1f9241c8a082eaf6f269c436 }}
-      contentTypes: ''
+      contentTypes: 'AutomationRule'
       branch: 'liveness-test'
       sourceControlId: '3418885c-1f92-41c8-a082-eaf6f269c436'
       rootDirectory: '${{ github.workspace }}'
